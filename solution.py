@@ -10,5 +10,5 @@ def checkArmstrong(num):
         sum += d ** 3
         temp //= 10
     if num == sum:
-        return True
-    return False
+        return False
+    return True
