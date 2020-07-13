@@ -3,5 +3,12 @@
 
 def checkArmstrong(num):
     # Your code goes here
-    # ghhgj
+    temp = num
+    sum = 0
+    while temp > 0:
+        d = temp % 10
+        sum += d ** 3
+        temp //= 10
+    if num == sum:
+        return False
     return True
